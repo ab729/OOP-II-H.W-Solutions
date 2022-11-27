@@ -35,3 +35,11 @@ myAC.turnOn();
 //Try your best in this one
 //Q17
 dataTransmitter.sendObject(john_doe);
+
+//this section for 9.5.1
+//Q1
+dataTransmitter.sendSignal();
+//Q2
+dataTransmitter.sendTwo(15.955,133);
+//Q3
+logger.printLarger(sales1, sales2);
