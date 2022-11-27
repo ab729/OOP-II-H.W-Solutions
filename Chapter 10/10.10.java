@@ -3,10 +3,8 @@ public String max(String a, String b)
 {
 return a.compareTo(b) > 0 ? a : b;
 }
-[5:35 PM]
 //q2
 --------------------------------------------------
-[5:35 PM]
 public String min (String aString, String bString, String cString)
 {
 if (aString.compareTo(bString) < 0 && aString.compareTo(cString) < 0)
@@ -22,10 +20,8 @@ else
 return cString;
 }
 }
-[5:35 PM]
 //q3
 --------------------------------------------------
-[5:36 PM]
 public static boolean isEmailAddress (String aString)
 {
 if (aString.indexOf("@") != -1)
